@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: restaurantapp
-          image: rasukuntanagesh/restaurant-listing-service:1
+          image: rasukuntanagesh/restaurant-listing-service:8
           imagePullPolicy: Always
           ports:
             - containerPort: 8081
