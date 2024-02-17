@@ -3,4 +3,4 @@ kind: ConfigMap
 metadata:
   name: configmap
 data:
-  studentdb_url: jdbc:mysql://mynewsqldb.ct91asccasgf.eu-west-2.rds.amazonaws.com:3306/restaurant
+  studentdb_url: jdbc:mysql://mysql-db.ct91asccasgf.eu-west-2.rds.amazonaws.com:3306/restaurantdb
