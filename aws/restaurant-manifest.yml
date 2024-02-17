@@ -19,7 +19,7 @@ spec:
           image: rasukuntanagesh/restaurant-listing-service:20
           imagePullPolicy: Always
           ports:
-            - containerPort: 8081
+            - containerPort: 9093
           env:
             - name: SPRING_DATASOURCE_USERNAME
               valueFrom:
@@ -44,8 +44,8 @@ metadata:
 spec:
   ports:
     - protocol: TCP
-      port: 8081
-      targetPort: 8081
+      port: 9093
+      targetPort: 9093
   selector:
     app: restaurantapp
  
