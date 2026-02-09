@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: restaurantapp
-          image: rasukuntanagesh/api_gateway:0
+          image: rasukuntanagesh/api_gateway:3
           imagePullPolicy: Always
           ports:
             - containerPort: 9093
